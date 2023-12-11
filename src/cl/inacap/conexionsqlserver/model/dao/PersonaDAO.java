@@ -7,7 +7,6 @@ import cl.inacap.conexionsqlserver.model.dto.Persona;
 import cl.inacap.conexionsqlserver.util.BDUtil;
 
 public class PersonaDAO {
-	
 	private BDUtil bdUtil = new BDUtil();
 	
 	public boolean save(Persona p) {
